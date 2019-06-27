@@ -22,6 +22,7 @@ class ViewController: UIViewController {
   private var isEngineRunning: Bool = false
   private var hapticData: Data? {
     didSet {
+      playButton.alpha = hapticData != nil ? 1 : 0.8
       playButton.isEnabled = hapticData != nil
       stateLabel.text = hapticData != nil ? "HAPTIC READY" : "NO HAPTIC LOADED"
     }

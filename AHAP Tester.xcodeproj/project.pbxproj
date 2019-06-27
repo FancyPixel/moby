@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		65C6A4C922C379DE006ACFC2 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		65C6A4CD22C37BBC006ACFC2 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
-		65DB981922C3585E001CE26D /* AHAP Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AHAP Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DB981922C3585E001CE26D /* Moby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DB981C22C3585E001CE26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DB981E22C3585E001CE26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		65DB982022C3585E001CE26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		65DB981A22C3585E001CE26D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65DB981922C3585E001CE26D /* AHAP Tester.app */,
+				65DB981922C3585E001CE26D /* Moby.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			);
 			name = "AHAP Tester";
 			productName = "AHAP Tester";
-			productReference = 65DB981922C3585E001CE26D /* AHAP Tester.app */;
+			productReference = 65DB981922C3585E001CE26D /* Moby.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -320,9 +320,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.AHAP-Tester";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Moby;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,9 +338,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.AHAP-Tester";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Moby;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

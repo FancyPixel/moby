@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lines" translatesAutoresizingMaskIntoConstraints="NO" id="twe-Tf-J9H">
+                                <rect key="frame" x="-60" y="-440" width="534" height="2048"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6b-0y-RgL">
                                 <rect key="frame" x="20" y="792" width="374" height="50"/>
                                 <color key="backgroundColor" name="MainTint"/>
@@ -25,7 +28,7 @@
                                 </constraints>
                                 <color key="tintColor" name="MainTint"/>
                                 <state key="normal" title="PLAY HAPTIC">
-                                    <color key="titleColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -37,7 +40,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a Captain AHAP permalink or a full path to an AHAP file" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaz-SY-nlb">
-                                <rect key="frame" x="20" y="367" width="374" height="36"/>
+                                <rect key="frame" x="40" y="367" width="334" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +53,7 @@
                                 </constraints>
                                 <color key="tintColor" name="MainTint"/>
                                 <state key="normal" title="LOAD AHAP">
-                                    <color key="titleColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -102,7 +105,7 @@
                             </view>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VKy-St-WQu">
                                 <rect key="frame" x="197" y="508" width="20" height="20"/>
-                                <color key="color" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpB-GB-h9p">
                                 <rect key="frame" x="167.5" y="551" width="79" height="28"/>
@@ -134,13 +137,16 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MYH-WQ-T33" secondAttribute="trailing" constant="20" id="E3z-Kn-TWf"/>
                             <constraint firstItem="VKy-St-WQu" firstAttribute="centerX" secondItem="MYH-WQ-T33" secondAttribute="centerX" id="HcZ-zo-9da"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T6b-0y-RgL" secondAttribute="trailing" constant="20" id="Knm-lh-hix"/>
+                            <constraint firstItem="twe-Tf-J9H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-60" id="MXO-Z5-lDM"/>
                             <constraint firstItem="MYH-WQ-T33" firstAttribute="top" secondItem="wCZ-UP-M4B" secondAttribute="bottom" constant="20" id="RbT-I9-dBP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="T6b-0y-RgL" secondAttribute="bottom" constant="20" id="T7X-pQ-IXk"/>
                             <constraint firstItem="wCZ-UP-M4B" firstAttribute="top" secondItem="oaz-SY-nlb" secondAttribute="bottom" constant="20" id="ZtO-uA-7ZF"/>
                             <constraint firstItem="wCZ-UP-M4B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ckn-O7-FUS"/>
+                            <constraint firstItem="twe-Tf-J9H" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-440" id="hA8-Kv-JAT"/>
                             <constraint firstItem="dpB-GB-h9p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lLc-P2-bdg"/>
-                            <constraint firstItem="oaz-SY-nlb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ndE-9w-eCg"/>
-                            <constraint firstAttribute="trailing" secondItem="oaz-SY-nlb" secondAttribute="trailing" constant="20" id="oy2-nf-04g"/>
+                            <constraint firstItem="oaz-SY-nlb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ndE-9w-eCg"/>
+                            <constraint firstAttribute="trailing" secondItem="oaz-SY-nlb" secondAttribute="trailing" constant="40" id="oy2-nf-04g"/>
+                            <constraint firstAttribute="trailing" secondItem="twe-Tf-J9H" secondAttribute="trailing" constant="-60" id="qdC-pP-ZhY"/>
                             <constraint firstItem="MYH-WQ-T33" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xKF-6G-tqQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -174,6 +180,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="lines" width="1024" height="1024"/>
         <image name="qrcode.viewfinder" catalog="system" width="64" height="58"/>
         <namedColor name="MainTint">
             <color red="0.15686274509803921" green="0.3843137254901961" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
