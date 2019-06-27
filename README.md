@@ -6,7 +6,7 @@
 
 Moby is a simple app that lets you download and test AHAP (Apple Haptic and Audio Pattern) files.  
 Please note that `CoreHaptics` is only avaialble in iOS 13, so make sure to run this with Xcode 11.  
-You can use our [Catain AHAP](https://ahap.fancypixel.it/) web app to design your own haptic files graphically:
+You can use our [Catain AHAP](http://ahap.fancypixel.it/) web app to design your own haptic files graphically:
 
 <p align="center">
   <img width="1000" height="512" src="assets/ahap.png"/>
