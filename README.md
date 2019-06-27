@@ -4,8 +4,8 @@
 
 ![Swift 5.1](https://img.shields.io/badge/swift-5.1-orange.svg)
 
-Moby is a simple app that lets you download and test AHAP (Apple Haptic and Audio Pattern) files.
-Please note that `CoreHaptics` is only avaialble in iOS 13, so make sure to run this with Xcode 11.
+Moby is a simple app that lets you download and test AHAP (Apple Haptic and Audio Pattern) files.  
+Please note that `CoreHaptics` is only avaialble in iOS 13, so make sure to run this with Xcode 11.  
 You can use our [Catain AHAP](https://ahap.fancypixel.it/) web app to design your own haptic files graphically:
 
 <p align="center">
