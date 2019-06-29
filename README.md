@@ -14,7 +14,7 @@ You can use our [Captain AHAP](http://ahap.fancypixel.it/) web app to design you
 
 ## Usage
 
-Build and run on a device to fel the haptics.
+Build and run on a device to feel the haptics.
 
 # Author
 Built by [Fancy Pixel](https://fancypixel.it). We're available for hire, feel free to contact us!
